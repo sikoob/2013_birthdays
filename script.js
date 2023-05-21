@@ -1,4 +1,6 @@
 //get necessary time elements
+const currentDate =new Date();
+
 const diodaysElement =document.getElementById('dio_days');
 let dionewDate = `8 Aug ${new Date().getFullYear()}`
 
@@ -28,9 +30,8 @@ let simonnewDate = `9 Aug ${new Date().getFullYear()}`
 
 
 function countdown_dio () {
-    const currentDate =new Date();
     if (new Date(dionewDate) - currentDate <0) {
-        dionewDate = `27 Feb ${new Date().getFullYear() +1}`
+        dionewDate = `8 Aug ${new Date().getFullYear() +1}`
     }
     const dionewDate2 = new Date(dionewDate);
 
@@ -48,9 +49,8 @@ function countdown_dio () {
 }
 
 function countdown_ori () {
-    const currentDate =new Date();
     if (new Date(orinewDate) - currentDate <0) {
-        orinewDate = `27 Feb ${new Date().getFullYear() +1}`
+        orinewDate = `29 May ${new Date().getFullYear() +1}`
     }
     const orinewDate2 = new Date(orinewDate);
 
@@ -68,9 +68,8 @@ function countdown_ori () {
 }
 
 function countdown_kiki () {
-    const currentDate =new Date();
     if (new Date(kikinewDate) - currentDate <0) {
-        kikinewDate = `27 Feb ${new Date().getFullYear() +1}`
+        kikinewDate = `11 Aug ${new Date().getFullYear() +1}`
     }
     const kikinewDate2 = new Date(kikinewDate);
 
@@ -88,9 +87,8 @@ function countdown_kiki () {
 }
 
 function countdown_helga () {
-    const currentDate =new Date();
     if (new Date(helganewDate) - currentDate <0) {
-        helganewDate = `27 Feb ${new Date().getFullYear() +1}`
+        helganewDate = `9 Oct ${new Date().getFullYear() +1}`
     }
     const helganewDate2 = new Date(helganewDate);
 
@@ -108,9 +106,8 @@ function countdown_helga () {
 }
 
 function countdown_katja () {
-    const currentDate =new Date();
     if (new Date(katjanewDate) - currentDate <0) {
-        katjanewDate = `27 Feb ${new Date().getFullYear() +1}`
+        katjanewDate = `30 Nov ${new Date().getFullYear() +1}`
     }
     const katjanewDate2 = new Date(katjanewDate);
 
@@ -128,9 +125,8 @@ function countdown_katja () {
 }
 
 function countdown_tessa () {
-    const currentDate =new Date();
     if (new Date(tessanewDate) - currentDate <0) {
-        tessanewDate = `27 Feb ${new Date().getFullYear() +1}`
+        tessanewDate = `25 May ${new Date().getFullYear() +1}`
     }
     const tessanewDate2 = new Date(tessanewDate);
 
@@ -148,9 +144,8 @@ function countdown_tessa () {
 }
 
 function countdown_anja () {
-    const currentDate =new Date();
     if (new Date(anjanewDate) - currentDate <0) {
-        anjanewDate = `27 Feb ${new Date().getFullYear() +1}`
+        anjanewDate = `10 Sep ${new Date().getFullYear() +1}`
     }
     const anjanewDate2 = new Date(anjanewDate);
 
@@ -168,7 +163,6 @@ function countdown_anja () {
 }
 
 function countdown_alex () {
-    const currentDate =new Date();
     if (new Date(alexnewDate) - currentDate <0) {
         alexnewDate = `27 Feb ${new Date().getFullYear() +1}`
     }
@@ -189,9 +183,8 @@ function countdown_alex () {
 }
 
 function countdown_simon () {
-    const currentDate =new Date();
     if (new Date(simonnewDate) - currentDate <0) {
-        simonnewDate = `27 Feb ${new Date().getFullYear() +1}`
+        simonnewDate = `9 Aug ${new Date().getFullYear() +1}`
     }
     const simonnewDate2 = new Date(simonnewDate);
 
