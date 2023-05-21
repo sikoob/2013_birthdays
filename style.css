@@ -66,7 +66,7 @@ h1 {
     align-items: center;
     height: 11rem;
     width: 25rem;
-    margin: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem 1.5rem;
     border: 1px solid black;
     background-color: rgba(18,50,80,0.6);
 }
@@ -103,4 +103,49 @@ span {
 } 
 
 /*Media Queries*/
+@media (max-width: 56.25em) {
+    .background_cover{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
 
+    .content_container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .birthdays {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .countdown-container {
+        height: 5rem;
+        width: 10rem;
+        margin: 0.25rem;
+    }
+
+    .big-text {
+        font-size: 2rem;
+        line-height: 1;
+        margin: 0.5rem 1rem; /* 1rem top und bottom 2 rem links rechts */
+    }
+    
+    .birthday {
+        font-size: 1rem;
+    }
+
+    span {
+        font-size: 0.75rem;
+        margin: 0.5rem;   
+    } 
+
+} 
